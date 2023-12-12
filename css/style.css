@@ -1,0 +1,96 @@
+.title-section {
+    background-color: #1E1E2F; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.title-section h1 {
+    font-size: 2.5em; 
+    margin-bottom: 10px; 
+}
+
+.title-section hr {
+    width: 50%; 
+    border: 1px solid white; 
+    margin: 10px auto; 
+}
+
+.title-section p {
+    font-size: 1em; 
+    margin-bottom: 10px; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #1E1E2F; 
+    color: #fff; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.container {
+    max-width: 800px; 
+    margin: 40px auto; 
+    padding: 20px; 
+    background-color: #1c1c1c; 
+}
+
+h1, h2 {
+    font-size: 28px; 
+    color: white; 
+}
+
+h2 {
+    font-size: 22px; 
+    margin-bottom: 20px; 
+}
+
+canvas {
+    width: 100% !important; 
+    max-width: 800px; 
+    max-height: 100px; 
+    height: auto !important; 
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    padding: 15px; 
+    background-color: #27293D; 
+    border: 1px solid #ff0000; 
+    box-shadow: 0 0 10px black; 
+    border-radius: 10px; 
+    margin-bottom: 50px; 
+    height: auto; 
+}
+
+.market-cap-info {
+    color: white; 
+    font-size: 12px; 
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.specific-text {
+    color: white; 
+    font-size: 14px; 
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #2a2a2a;
+}
